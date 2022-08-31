@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">La BiblioTecha</string>
+    <string name="logo">logo</string>
+    <string name="rbk1" tools:ignore="Typos">rbk1</string>
+    <string name="rbk2">rbk2</string>
+    <string name="rbk3">rbk3</string>
+    <string name="rbk4">rbk4</string>
+    <string name="rbk5">rbk5</string>
+    <string name="cbk1" tools:ignore="Typos">cbk1</string>
+    <string name="cbk2">cbk2</string>
+    <string name="cbk3">cbk3</string>
+    <string name="cbk4">cbk4</string>
+    <string name="cbk5">cbk5</string>
+    <string name="mbk1" tools:ignore="Typos">mbk1</string>
+    <string name="mbk2">mbk2</string>
+    <string name="mbk3">mbk3</string>
+    <string name="mbk4">mbk4</string>
+    <string name="mbk5">mbk5</string>
+    <string name="romance">Romance</string>
+    <string name="comedy">Comedy</string>
+    <string name="mystery">Mystery</string>
+    <string name="description">This is a book</string>
+    <string name="add">+</string>
+    <string name="register">addbook</string>
+</resources>

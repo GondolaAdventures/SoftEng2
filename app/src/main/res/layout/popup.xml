@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#292828"
+    >
+
+    <ImageView
+        android:id="@+id/book_png"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/openbook_background"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166"
+        />
+
+    <EditText
+        android:id="@+id/newpopup_booktitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/book_png"
+        tools:layout_editor_absolute="-28dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        app:hintTextColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Title of the Book"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/newpopup_bookauthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/newpopup_booktitle"
+        tools:layout_editor_absolute="-28dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        app:hintTextColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Author of the Book"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newpopup_bookauthor"
+        app:layout_constraintVertical_bias="0.292"
+        />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newpopup_bookauthor"
+        app:layout_constraintVertical_bias="0.291" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

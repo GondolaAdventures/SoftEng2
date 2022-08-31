@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292828"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="15sp">
+
+                    <ImageView
+                        android:id="@+id/LBT_Logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="125sp"
+                        android:contentDescription="@string/logo"
+                        app:srcCompat="@mipmap/lbtwhitebanner_foreground" />
+
+                    <TextView
+                        android:id="@+id/RecTex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50sp"
+                        android:text="@string/romance"
+                        android:textColor="@color/white"
+                        android:textSize="25sp" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/RecommendedTab"
+                        android:layout_width="match_parent"
+                        android:layout_height="200sp"
+                        android:paddingStart="10sp"
+                        tools:ignore="RtlSymmetry">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <ImageButton
+                                    android:id="@+id/RomBk1"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/rbk1"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/RomBk2"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/rbk2"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/RomBk3"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/rbk3"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/RomBk4"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/rbk4"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/RomBk5"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/rbk5"
+                                    android:background="@mipmap/book_cover" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/UsrTex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50sp"
+                        android:text="@string/comedy"
+                        android:textColor="@color/white"
+                        android:textSize="25sp" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/UsrsListTab"
+                        android:layout_width="match_parent"
+                        android:layout_height="200sp"
+                        android:paddingStart="10sp"
+                        tools:ignore="RtlSymmetry">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <ImageButton
+                                    android:id="@+id/ComBk1"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/cbk1"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/ComBk2"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/cbk2"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/ComBk3"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/cbk3"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/ComBk4"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/cbk4"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/ComBk5"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/cbk5"
+                                    android:background="@mipmap/book_cover" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/TreTex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50sp"
+                        android:text="@string/mystery"
+                        android:textColor="@color/white"
+                        android:textSize="25sp" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/TrendingTab"
+                        android:layout_width="match_parent"
+                        android:layout_height="200sp"
+                        android:paddingStart="10sp"
+                        tools:ignore="RtlSymmetry">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <ImageButton
+                                    android:id="@+id/MysBk1"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/mbk1"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/MysBk2"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/mbk2"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/MysBk3"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/mbk3"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/MysBk4"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/mbk4"
+                                    android:background="@mipmap/book_cover" />
+
+                                <ImageButton
+                                    android:id="@+id/MysBk5"
+                                    android:layout_width="150sp"
+                                    android:layout_height="150sp"
+                                    android:layout_weight="1"
+                                    android:contentDescription="@string/mbk5"
+                                    android:background="@mipmap/book_cover" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/plusbutton"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:background="@drawable/roundshape"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/register"
+        android:foreground="@drawable/plusicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
