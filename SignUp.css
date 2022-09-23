@@ -41,7 +41,7 @@ body .login-div {
   border-radius: 1em;
 }
 
-.loginBOLD {
+.signupBOLD {
     font-size: 35px;
     margin-left: 50px;
     color: rgb(255, 255, 255);
@@ -71,7 +71,7 @@ body .login-div {
     height: 2.1rem;
 }
 
-.logBTN {
+.signBTN {
     font-family:Ubuntu;
     border: 2px solid white;
     background-color:rgba(89, 165, 255);
@@ -87,7 +87,7 @@ body .login-div {
      1px 1px 0 #000;
   }
 
-  .logBTN:hover {
+  .signBTN:hover {
     background-color:rgb(78, 146, 228);
     color:rgb(255, 255, 255);
     border-width: 4px;
@@ -99,18 +99,7 @@ body .login-div {
      1px 1px 0 #000;
   }
 
-  .forgetPass {
-      font-size: 20px;
-    color:rgb(255, 255, 255);
-      margin-right: 75px;
-      text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-  }
-
-  .needAcc {
+  .alrUser {
       color:rgb(255, 255, 255);
       text-shadow:
    -1px -1px 0 #000,  
