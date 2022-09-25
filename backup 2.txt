@@ -6,7 +6,6 @@
 
   * {
     font-family: ubuntu;
-    color: white;
   }
 
 body {
@@ -91,9 +90,7 @@ body {
     margin: 0 auto;
 }
 
-/* ---------------------------------------------------
-    SIDEBAR STYLE
------------------------------------------------------ */
+/* Side Bar */
 
 .wrapper {
     display: flex;
@@ -102,18 +99,25 @@ body {
 }
 
 #sidebar {
-    width: 100px;
-    height: 100vh;
-    background: 
-    linear-gradient(rgba(131,135,238, 0.3), transparent),
-    linear-gradient(to top left, rgba(130, 133, 35, 0.3), transparent),
-    linear-gradient(to top right, rgba(38,146,207, 0.3), transparent);
-    background-blend-mode: screen;
+    min-width: 250px;
+    max-width: 250px;
+    background: #7396D5;
+    color: #fff;
     transition: all 0.3s;
 }
 
-#sidebar.active {
+#sidebar .active {
     margin-left: -25px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul p {
@@ -124,57 +128,41 @@ body {
 #sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
-    display: block;
+    display:block;
 }
+
 #sidebar ul li a:hover {
-    background: rgb(10, 10, 10);
+    color: #7386D5;
+    background: #fff;
 }
 
-#sidebar ul li.active > a, a[aria-expanded="true"] {
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
     color: #fff;
-    background-color: rgba(77, 122, 255, 0.286);
+    background: #6d7fcc;
 }
-
 
 a[data-toggle="collapse"] {
     position: relative;
 }
 
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+}
 
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background-color: rgba(77, 122, 255, 0.286);
+    background: #6d7fcc;
 }
 
 #content {
     width: 100%;
     padding: 20px;
-    position: absolute;
     min-height: 100vh;
     transition: all 0.3s;
-    padding: 40px;
-    top: 0;
-    right: 0;
-}
-
-/* ---------------------------------------------------
-    MEDIAQUERIES
------------------------------------------------------ */
-@media (max-width: 768px) {
-    #sidebar {
-        margin-left: -250px;
-    }
-    #sidebar.active {
-        margin-left: 0;
-    }
-    #content {
-        width: 100%;
-    }
-    #content.active {
-        width: calc(100% - 250px);
-    }
-    #sidebarCollapse span {
-        display: none;
-    }
 }
