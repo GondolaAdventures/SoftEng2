@@ -6,7 +6,6 @@
 
   * {
     font-family: ubuntu;
-    color: white;
   }
 
 body {
@@ -42,6 +41,14 @@ body {
     width: 70px;
     height: 90px;
     margin-left: 4px;
+  }
+
+  .FilesText {
+    color: black !important;
+  }
+
+  .clickFile:hover {
+    cursor:pointer;
   }
 
   .iconSet {
@@ -86,9 +93,8 @@ body {
     margin: 40px 0;
 }
 
-.bodyTxt {
+.content {
     color: white;
-    margin: 0 auto;
 }
 
 /* ---------------------------------------------------
