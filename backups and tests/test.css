@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font: 100%/1.5 sans-serif;
+  }
+  
+  main {
+    margin: 6rem auto;
+    width: 75ch;
+    font-size: 1.125rem;
+  }
+  
+  h2 {
+    font: 400 1.875rem/1.25 MuseoModerno, sans-serif;
+    color: #6b2d6b;
+  }
+  
+  .site-header {
+    font: 1.125rem / 1.25 MuseoModerno, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    color: white;
+    background: linear-gradient(135deg, #8e3d8e, #230f23);
+  }
+  
+  .site-name {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 400;
+  }
+  
+  .nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .nav-link {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    padding: 1.25rem 1.5rem;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #230f23;
+    background-color: white;
+  }
+  
+  .button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    color: white;
+    background: #4c90b2;
+    border: 1px solid #2d566b;
+    border-radius: 0.5rem;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #2d566b;
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 250ms ease;
+  }
+  
+  .modal {
+    margin: auto;
+    width: 90%;
+    max-width: 40rem;
+    background: linear-gradient(135deg, hsl(300, 40%, 20%),hsl(300, 40%, 5%));
+    border-radius: 1.5rem;
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(300, 80%, 90%, 0.2);
+  border-radius: 1.5rem 1.5rem 0 0;
+  }
+  
+  .modal-title {
+    margin: 0;
+    color: white;
+  }
+  
+  .modal-close {
+    color: white;
+  }
+  
+  .modal-content {
+    color: white;
+  }
+  
+  
+  .modal-header,
+  .modal-content {
+    padding: 1.5rem;
+  }
+
+  .modal-container:target {
+    opacity: 1;
+    pointer-events: all;
+  }
