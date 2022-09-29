@@ -99,6 +99,22 @@ body .login-div {
      1px 1px 0 #000;
   }
 
+  .boxClass { /* checkbox size */
+    width: 15px;
+    height: 15px;
+  }
+
+  .showPass {
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+      margin-left: 50px;
+      text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  }
+
   .alrUser {
       color:rgb(255, 255, 255);
       text-shadow:
