@@ -97,12 +97,20 @@ body {
     margin: 40px 0;
 }
 
- .libHR {
+ .libHR { /* <hr> color */
     border-color: white;
   }
 
 .content {
     color: white;
+}
+
+.custom {
+    background: 
+    linear-gradient(rgba(131,135,238, 0.3), transparent),
+    linear-gradient(to top left, rgba(130, 133, 35, 0.3), transparent),
+    linear-gradient(to top right, rgba(38,146,207, 0.3), transparent);
+    background-blend-mode: screen;
 }
 
 /* ---------------------------------------------------

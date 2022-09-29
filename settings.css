@@ -97,7 +97,7 @@ body {
     margin: 40px 0;
 }
 
- .libHR {
+ .libHR { /* <hr> color */
     border-color: white;
   }
 
