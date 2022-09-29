@@ -209,6 +209,27 @@ body {
 
 /* MODAL FOR FILE END */
 
+/* Search Bar */
+
+.fake-input { 
+  position: relative; 
+  width:240px; 
+  border-radius: 1em;
+}
+.fake-input input { 
+  border:none; 
+  background-color:#fff; 
+  display:block; 
+  width: 100%; 
+  box-sizing: border-box;
+  border-radius: 1em;
+}
+.fake-input img {
+   position: absolute; 
+   top: 2px; 
+   right: 5px;
+  }
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */

@@ -1,4 +1,4 @@
- $(document).ready(function () {
+ $(document).ready(function () { //leftover when @media still existed
                 $("#sidebar").mCustomScrollbar({
                     theme: "minimal"
                 });
