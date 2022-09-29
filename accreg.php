@@ -29,7 +29,7 @@ if (!empty($email) || !empty($password)) {
             $stmt->close();
 
             $stmt = $conn->prepare($INSERT);
-            $stmt->bind_param("ssssii", $email, $password);
+            $stmt->bind_param("ss", $email, $password);
             $stmt->execute();
             echo "New record inserted successfully";
         } else {
