@@ -243,6 +243,7 @@ body {
 }
 
 #sidebar {
+    display: inline;
     width: 100px;
     position: fixed;
     bottom: 0;
