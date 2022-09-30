@@ -257,12 +257,14 @@ nav {
     margin-left: -25px;
 }
 
-#sidebar ul p {
+nav ul p {
     color: #fff;
     padding: 10px;
 }
 
-#sidebar ul li a {
+
+
+nav ul li a {
     padding: 10px;
     font-size: 1.1em;
     display: block;
