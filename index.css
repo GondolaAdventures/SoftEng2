@@ -240,7 +240,6 @@ body {
     display: flex;
     text-decoration: none;
     transition: all 0.3s;
-    padding-left: 0px;
 }
 
 #sidebar {
