@@ -253,9 +253,6 @@ body {
     background-blend-mode: screen;
     transition: all 0.3s;
 }
-li{
-  float: left;
-}
 
 #sidebar.active {
     margin-left: -25px;
@@ -268,8 +265,6 @@ li{
 
 #sidebar ul li a {
     float: left;
-    padding: 10px;
-    font-size: 1.1em;
     display: block;
 }
 #sidebar ul li a:hover {
