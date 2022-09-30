@@ -243,7 +243,8 @@ body {
 }
 
 #sidebar {
-    padding-left: 0px;
+    width: 100px;
+    height: 100vh;
     background: 
     linear-gradient(rgba(131,135,238, 0.3), transparent),
     linear-gradient(to top left, rgba(130, 133, 35, 0.3), transparent),
@@ -258,7 +259,7 @@ body {
 
 #sidebar ul p {
     color: #fff;
-    padding-left: 0px;
+    padding: 10px;
 }
 
 #sidebar ul li a {
