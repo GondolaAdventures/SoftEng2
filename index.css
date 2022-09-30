@@ -254,9 +254,7 @@ body {
     bottom: 0;
 }
 
-#sidebar.active {
-    margin-bottom: -25px;
-}
+
 
 #sidebar ul p {
     color: #fff;
