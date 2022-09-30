@@ -251,26 +251,18 @@ body {
     linear-gradient(to top right, rgba(38,146,207, 0.3), transparent);
     background-blend-mode: screen;
     transition: all 0.3s;
-    bottom: 0 ;
-    position: fixed;
 }
 
-#sidebar.active {
-    margin-left: -25px;
-    bottom: 0 ;
-}
 
 #sidebar ul p {
     color: #fff;
     padding: 10px;
-    bottom: 0 ;
 }
 
 #sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
-    display: block;
-    
+    display:inline;
 }
 #sidebar ul li a:hover {
     background: rgb(10, 10, 10);
