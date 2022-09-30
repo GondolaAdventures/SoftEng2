@@ -260,8 +260,6 @@ body {
 #sidebar ul p {
     color: #fff;
     padding: 10px;
-    list-style-type:none;
-    float:left;
 }
 
 #sidebar ul li a {
