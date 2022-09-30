@@ -265,7 +265,7 @@ body {
 #sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
-    display: block;
+    display: inline-block;
 }
 #sidebar ul li a:hover {
     background: rgb(10, 10, 10);
