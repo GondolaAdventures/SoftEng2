@@ -264,15 +264,15 @@ nav ul p {
 
 
 
-nav ul li a {
+nav ul li  {
     padding: 10px;
     font-size: 1.1em;
     display: block;
+    list-style-type:none;
+    float:left;
 }
 #sidebar ul li a:hover {
     background: rgb(10, 10, 10);
-    list-style-type:none;
-    float:left;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
