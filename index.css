@@ -252,10 +252,7 @@ body {
     background-blend-mode: screen;
     transition: all 0.3s;
 }
-#sidebar li{
-  list-style-type:none;
-    float:left;
-}
+
 #sidebar.active {
     margin-left: -25px;
 }
