@@ -242,6 +242,10 @@ body {
     transition: all 0.3s;
 }
 
+ul li{
+    list-style-type:none;
+    float:left;
+}
 #sidebar {
     width: 100px;
     height: 100vh;
