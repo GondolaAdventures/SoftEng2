@@ -254,7 +254,7 @@ body {
 }
 
 #sidebar.active {
-    
+    margin-left: -25px;
 }
 
 #sidebar ul p {
