@@ -271,6 +271,8 @@ nav ul li a {
 }
 #sidebar ul li a:hover {
     background: rgb(10, 10, 10);
+    list-style-type:none;
+    float:left;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
@@ -288,8 +290,6 @@ ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background-color: rgba(77, 122, 255, 0.286);
-    list-style-type:none;
-    float:left;
 }
 
 #content {
