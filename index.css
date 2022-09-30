@@ -251,7 +251,6 @@ body {
     linear-gradient(to top right, rgba(38,146,207, 0.3), transparent);
     background-blend-mode: screen;
     transition: all 0.3s;
-    display: inline-block;
 }
 
 #sidebar.active {
