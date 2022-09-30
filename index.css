@@ -244,7 +244,7 @@ body {
 
 #sidebar {
     width: 100px;
-    float: left;
+    float:inline-start;
     position: fixed;
     bottom: 0;
     background: 
