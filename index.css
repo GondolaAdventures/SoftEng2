@@ -76,6 +76,7 @@ body {
 }
 
 .navbar {
+    display: inline;
     padding: 15px 10px;
     background: #fff;
     border: none;
