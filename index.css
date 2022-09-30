@@ -265,8 +265,9 @@ nav ul p {
 
 
 nav ul li a {
-  list-style-type:none;
-  float:left;
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
 }
 #sidebar ul li a:hover {
     background: rgb(10, 10, 10);
