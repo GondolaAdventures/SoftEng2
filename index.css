@@ -244,6 +244,7 @@ body {
 
 #sidebar {
     width: 100px;
+    float: left;
     position: fixed;
     bottom: 0;
     background: 
@@ -265,7 +266,6 @@ body {
 
 #sidebar ul li a {
     float: left;
-    text-align: center;
     padding: 10px;
     font-size: 1.1em;
     display: block;
