@@ -242,7 +242,7 @@ body {
     transition: all 0.3s;
 }
 
-nav {
+#sidebar {
     width: 100px;
     height: 100vh;
     background: 
@@ -257,19 +257,15 @@ nav {
     margin-left: -25px;
 }
 
-nav ul p {
+#sidebar ul p {
     color: #fff;
     padding: 10px;
 }
 
-
-
-nav ul li  {
+#sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
     display: block;
-    list-style-type:none;
-    float:left;
 }
 #sidebar ul li a:hover {
     background: rgb(10, 10, 10);
