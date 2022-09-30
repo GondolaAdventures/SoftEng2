@@ -8,8 +8,11 @@
     font-family: ubuntu;
   }
 
+li{
+  display: inline;
+}
+
 body {
-    display: inline;
     margin: 0;
     padding: 0;
     width: 100%;
