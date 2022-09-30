@@ -288,6 +288,8 @@ ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background-color: rgba(77, 122, 255, 0.286);
+    list-style-type:none;
+    float:left;
 }
 
 #content {
