@@ -244,8 +244,7 @@ body {
 
 #sidebar {
     width: 100px;
-    position: fixed;
-    bottom: 0;
+    height: 100vh;
     background: 
     linear-gradient(rgba(131,135,238, 0.3), transparent),
     linear-gradient(to top left, rgba(130, 133, 35, 0.3), transparent),
@@ -264,7 +263,8 @@ body {
 }
 
 #sidebar ul li a {
-    float: left;
+    padding: 10px;
+    font-size: 1.1em;
     display: block;
 }
 #sidebar ul li a:hover {
