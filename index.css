@@ -242,7 +242,7 @@ body {
     transition: all 0.3s;
 }
 
-#sidebar {
+nav {
     width: 100px;
     height: 100vh;
     background: 
