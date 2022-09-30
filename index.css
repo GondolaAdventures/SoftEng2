@@ -243,7 +243,6 @@ body {
 }
 
 #sidebar {
-    display: inline;
     width: 100px;
     position: fixed;
     bottom: 0;
@@ -265,6 +264,7 @@ body {
 }
 
 #sidebar ul li a {
+    float: left;
     padding: 10px;
     font-size: 1.1em;
     display: block;
