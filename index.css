@@ -251,6 +251,7 @@ body {
     linear-gradient(to top right, rgba(38,146,207, 0.3), transparent);
     background-blend-mode: screen;
     transition: all 0.3s;
+    display: inline-block;
 }
 
 #sidebar.active {
@@ -265,7 +266,7 @@ body {
 #sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
-    display: inline-block;
+    display: block;
 }
 #sidebar ul li a:hover {
     background: rgb(10, 10, 10);
