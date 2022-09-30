@@ -243,6 +243,8 @@ body {
 }
 
 #sidebar {
+    list-style-type: none;
+    float: left;
     width: 100px;
     height: 100vh;
     background: 
