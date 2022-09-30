@@ -243,8 +243,7 @@ body {
 }
 
 #sidebar {
-    width: 100px;
-    height: 100vh;
+    display: inline;
     background: 
     linear-gradient(rgba(131,135,238, 0.3), transparent),
     linear-gradient(to top left, rgba(130, 133, 35, 0.3), transparent),
