@@ -254,7 +254,8 @@ body {
 }
 
 #sidebar.active {
-    margin-left: -25px;
+  list-style-type:none;
+  float:left;
 }
 
 #sidebar ul p {
