@@ -8,10 +8,6 @@
     font-family: ubuntu;
   }
 
-li{
-  display: inline;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -258,7 +254,7 @@ body {
 }
 
 #sidebar.active {
-    margin-left: -25px;
+    
 }
 
 #sidebar ul p {
