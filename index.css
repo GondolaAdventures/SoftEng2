@@ -258,7 +258,7 @@ body {
 
 #sidebar ul p {
     color: #fff;
-    padding: 10px;
+    padding-left: 0px;
 }
 
 #sidebar ul li a {
