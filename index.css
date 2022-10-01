@@ -207,6 +207,24 @@ body {
   border-radius: 1rem;
 }
 
+.steelheartPrev {
+  margin-top: 5px;
+  width: 120px;
+  height: 214px;
+}
+
+.preview {
+  width: 160px;
+  height: 250px;
+  background: 
+    linear-gradient(rgba(131,135,238, 0.3), transparent),
+    linear-gradient(to top left, rgba(130, 133, 35, 0.3), transparent),
+    linear-gradient(to top right, rgba(38,146,207, 0.3), transparent);
+    background-blend-mode: screen;
+  border-radius: 2em;
+  padding: 5px;
+}
+
 /* MODAL FOR FILE END */
 
 /* Search Bar */
