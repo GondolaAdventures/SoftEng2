@@ -20,9 +20,11 @@ body {
     background-attachment: fixed;
   }
   
-  .fWidth {
+  .fWidth { /* important for full width <hr> */
     width: 100%;
   }
+
+  /* SIDEBAR STUFF */
 
 .Logo {
     margin: 0 auto;
@@ -46,10 +48,6 @@ body {
     height: 90px;
     margin-left: 4px;
   }
-
-  /*.FilesText {
-    color: black !important;
-  }*/
 
   .clickFile:hover {
     cursor:pointer;
@@ -90,18 +88,20 @@ body {
     border: none;
 }
 
-.line {
+/* .line {
     width: 100%;
     height: 1px;
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
-}
+} */
+
+  /* SIDEBAR STUFF END */
 
  .libHR { /* <hr> color */
     border-color: white;
   }
 
-.content {
+.content { /* entirety of index.html barring the sidebar */
     padding: 10px;
     color: white;
 }
@@ -207,6 +207,10 @@ body {
   border-radius: 1rem;
 }
 
+/* MODAL FOR FILE END */
+
+/* PREVIEW */
+
 .steelheartPrev {
   margin-top: 5px;
   width: 120px;
@@ -225,9 +229,9 @@ body {
   padding: 5px;
 }
 
-/* MODAL FOR FILE END */
+/* PREVIEW END */
 
-/* Search Bar */
+/* SEARCH BAR */
 
 .fake-input { 
   position: relative; 
@@ -248,7 +252,7 @@ body {
    right: 5px;
   }
 
-  /* Search Bar END */
+  /* SEARCH BAR END */
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
