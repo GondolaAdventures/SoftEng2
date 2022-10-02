@@ -17,11 +17,6 @@ body{
     
     
     
-    flex-grow: 1;
-    min-width: 50px;
-    overflow: hidden;
-    white-space: nowrap;
-    color: #4444;
-    text-decoration: none;
+    
     
 }
