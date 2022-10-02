@@ -16,7 +16,7 @@ body{
 .nav-link{
     
     
-    justify-content: center;
+    
     flex-grow: 1;
     min-width: 50px;
     overflow: hidden;
