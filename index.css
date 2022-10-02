@@ -20,9 +20,11 @@ body {
     background-attachment: fixed;
   }
   
-  .fWidth {
+  .fWidth { /* important for full width <hr> */
     width: 100%;
   }
+
+  /* SIDEBAR STUFF */
 
 .Logo {
     margin: 0 auto;
@@ -46,10 +48,6 @@ body {
     height: 90px;
     margin-left: 4px;
   }
-
-  /*.FilesText {
-    color: black !important;
-  }*/
 
   .clickFile:hover {
     cursor:pointer;
@@ -90,18 +88,20 @@ body {
     border: none;
 }
 
-.line {
+/* .line {
     width: 100%;
     height: 1px;
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
-}
+} */
+
+  /* SIDEBAR STUFF END */
 
  .libHR { /* <hr> color */
     border-color: white;
   }
 
-.content {
+.content { /* entirety of index.html barring the sidebar */
     padding: 10px;
     color: white;
 }
@@ -209,7 +209,29 @@ body {
 
 /* MODAL FOR FILE END */
 
-/* Search Bar */
+/* PREVIEW */
+
+.steelheartPrev {
+  margin-top: 5px;
+  width: 120px;
+  height: 214px;
+}
+
+.preview {
+  width: 160px;
+  height: 250px;
+  background: 
+    linear-gradient(rgba(131,135,238, 0.3), transparent),
+    linear-gradient(to top left, rgba(130, 133, 35, 0.3), transparent),
+    linear-gradient(to top right, rgba(38,146,207, 0.3), transparent);
+    background-blend-mode: screen;
+  border-radius: 2em;
+  padding: 5px;
+}
+
+/* PREVIEW END */
+
+/* SEARCH BAR */
 
 .fake-input { 
   position: relative; 
@@ -230,7 +252,7 @@ body {
    right: 5px;
   }
 
-  /* Search Bar END */
+  /* SEARCH BAR END */
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
