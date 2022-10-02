@@ -29,5 +29,9 @@ body{
     background-color: 0.1s;
 }
 
+.nav-link:hover{
+    color: #009578;
+}
+
 .material-icons.md-48 { font-size: 48px; }
 
