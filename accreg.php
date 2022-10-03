@@ -32,7 +32,8 @@ if (!empty($email) || !empty($password)) {
             $stmt = $conn->prepare($INSERT);
             $stmt->bind_param("ss", $email, $password_crypt);
             $stmt->execute();
-            echo "New record inserted successfully";
+            //echo "New record inserted successfully";
+            header('Location: /SoftEng2/logIn.html');
         } else {
             echo "Someone already register using this email";
         }
