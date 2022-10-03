@@ -1,4 +1,8 @@
- $(document).ready(function () { //leftover when @media still existed
+if (document.referrer=="http://localhost/SoftEng2/logIn.html") {
+    alert("Welcome to LaBiblioTECA");
+}
+
+$(document).ready(function () { //leftover when @media still existed
                 $("#sidebar").mCustomScrollbar({
                     theme: "minimal"
                 });
