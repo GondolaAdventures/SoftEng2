@@ -1,6 +1,7 @@
 <?php
 $email = $_POST['email'];
 $password = $_POST['password'];
+$password_crypt = password_hash($password, PASSWORD_BCRYPT);
 
 if (!empty($email) || !empty($password)) {
     $host = "localhost";
@@ -29,7 +30,7 @@ if (!empty($email) || !empty($password)) {
             $stmt->close();
 
             $stmt = $conn->prepare($INSERT);
-            $stmt->bind_param("ss", $email, $password);
+            $stmt->bind_param("ss", $email, $password_crypt);
             $stmt->execute();
             echo "New record inserted successfully";
         } else {

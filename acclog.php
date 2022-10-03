@@ -1,6 +1,6 @@
 <?php
 $email = $_POST['email'];
-$password = $_POST['password'];
+$password = $_POST['password']; 
 
 if (!empty($email) || !empty($password)) {
     $host = "localhost";
@@ -21,7 +21,6 @@ if (!empty($email) || !empty($password)) {
         $stmt->bind_param("s", $email);
         $stmt->execute();
         $stmt_result = $stmt->get_result();
-        //$stmt->store_result();
         $rnum = $stmt_result->num_rows;
         
         if ($rnum==0) {
@@ -32,6 +31,7 @@ if (!empty($email) || !empty($password)) {
                 header('Location: /SoftEng2/index.html');
             } else {
                 header('Location: /SoftEng2/logIn.html');
+                //echo ($password == $data['password']);
             }
         }
         // $stmt->close();
