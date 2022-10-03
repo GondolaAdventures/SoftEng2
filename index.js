@@ -1,3 +1,4 @@
+// Alert box
 if (document.referrer=="http://localhost/SoftEng2/logIn.html") {
     alert("Welcome to La BiblioTecha");
 }
