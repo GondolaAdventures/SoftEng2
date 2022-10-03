@@ -15,7 +15,7 @@ if (!empty($email) || !empty($password)) {
         die('Connect Error('.mysqli_connect_errno().')'.mysqli_connect_error());
     } else {
         $SELECT = "SELECT email From accounts Where email = ? Limit 1";
-        $INSERT = "INSERT Into accounts (email, password) values(?, ?)";
+        //$INSERT = "INSERT Into accounts (email, password) values(?, ?)";
 
         //Prepare statement
         $stmt = $conn->prepare($SELECT);
@@ -26,14 +26,14 @@ if (!empty($email) || !empty($password)) {
         $rnum = $stmt->num_rows;
         
         if ($rnum==0) {
-            $stmt->close();
+            // $stmt->close();
 
-            $stmt = $conn->prepare($INSERT);
-            $stmt->bind_param("ss", $email, $password);
-            $stmt->execute();
-            echo "New record inserted successfully";
+            // $stmt = $conn->prepare($INSERT);
+            // $stmt->bind_param("ss", $email, $password);
+            // $stmt->execute();
+            // echo "Record detected";
         } else {
-            echo "Someone already register using this email";
+            header('Location: /SoftEng2/index.html');
         }
         $stmt->close();
         $conn->close();
