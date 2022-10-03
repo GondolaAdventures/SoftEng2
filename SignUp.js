@@ -6,3 +6,9 @@ function checkPass() { // for password checkbox
       x.type = "password";
     }
   }
+
+  var modal = document.getElementById("ErrorSign");
+
+  function popUpModal() {
+    $('#ErrorSign').modal('show');
+  }

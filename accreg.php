@@ -35,7 +35,12 @@ if (!empty($email) || !empty($password)) {
             //echo "New record inserted successfully";
             header('Location: /SoftEng2/logIn.html');
         } else {
-            echo "Someone already register using this email";
+            header('Location: /SoftEng2/SignUp.html');
+            echo "<script type='text/javascript'>
+                    $(document).ready(function(){
+                    $('#ErrorSign').modal('show');
+                });
+                </script>";
         }
         $stmt->close();
         $conn->close();
