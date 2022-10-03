@@ -20,23 +20,22 @@ if (!empty($email) || !empty($password)) {
         $stmt = $conn->prepare($SELECT);
         $stmt->bind_param("s", $email);
         $stmt->execute();
-        $stmt->bind_result($email);
-        $stmt->store_result();
-        $rnum = $stmt->num_rows;
+        $stmt_result = $stmt->get_result();
+        //$stmt->store_result();
+        $rnum = $stmt_result->num_rows;
         
         if ($rnum==0) {
             header('Location: /SoftEng2/logIn.html');
         } else {
-            $data = $stmt->fetch_assoc();
+            $data = $stmt_result->fetch_assoc();
             if (password_verify($password, $data['password'])) {
                 header('Location: /SoftEng2/index.html');
             } else {
                 header('Location: /SoftEng2/logIn.html');
             }
-            header('Location: /SoftEng2/index.html');
         }
         // $stmt->close();
-        $stmt->close();
+        $stmt_result->close();
         $conn->close();
     }
 } else {
