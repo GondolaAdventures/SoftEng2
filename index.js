@@ -1,5 +1,5 @@
 if (document.referrer=="http://localhost/SoftEng2/logIn.html") {
-    alert("Welcome to LaBiblioTECA");
+    alert("Welcome to La BiblioTecha");
 }
 
 $(document).ready(function () { //leftover when @media still existed
