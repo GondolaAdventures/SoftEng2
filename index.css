@@ -272,7 +272,7 @@ body {
 }
 
 #sidebar {
-    width: 30px;
+    width: 100px;
     height: 100vh;
     background: 
     linear-gradient(rgba(131,135,238, 0.3), transparent),
