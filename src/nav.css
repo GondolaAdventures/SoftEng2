@@ -10,8 +10,8 @@ body{
 .navbot{
     position: fixed;
     bottom: 0;
-    width: 100px;
-    height: 100vh;
+    width: 100vh;
+    height: 32px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     background-color: black;
     overflow-x: auto;
