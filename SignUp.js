@@ -7,8 +7,17 @@ function checkPass() { // for password checkbox
     }
   }
 
-  var modal = document.getElementById("ErrorSign");
+ /* var modal = document.getElementById("ErrorSign");
 
   function popUpModal() {
     $('#ErrorSign').modal('show');
   }
+
+ window.onload = function(){
+
+  if ( document.getElementById('ErrorSign') ){
+
+      alert('Box'); //replace with your own handler
+  }
+
+} */

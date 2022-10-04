@@ -35,12 +35,8 @@ if (!empty($email) || !empty($password)) {
             //echo "New record inserted successfully";
             header('Location: /SoftEng2/logIn.html');
         } else {
-            header('Location: /SoftEng2/SignUp.html');
-            echo "<script type='text/javascript'>
-                    $(document).ready(function(){
-                    $('#ErrorSign').modal('show');
-                });
-                </script>";
+            //header('Location: /SoftEng2/SignUp.html');
+            header('Location: /SoftEng2/SignUp.html#ErrorSign');
         }
         $stmt->close();
         $conn->close();
