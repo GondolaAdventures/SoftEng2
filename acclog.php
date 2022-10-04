@@ -28,7 +28,7 @@ if (!empty($email) || !empty($password)) {
         } else {
             $data = $stmt_result->fetch_assoc();
             if (password_verify($password, $data['password'])) {
-                header('Location: /SoftEng2/index.html');
+                header('Location: /SoftEng2/index.html#Welcome');
             } else {
                 //header('Location: /SoftEng2/logIn.html');
                 header('Location: /SoftEng2/logIn.html#ErrorLog');
