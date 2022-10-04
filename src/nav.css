@@ -3,7 +3,7 @@ body{
 }
 @media screen and (min-width:400) {
     .navbot-link{
-        display: none;
+        display: block;
     }
 }
 
