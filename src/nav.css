@@ -37,6 +37,6 @@ body{
 
 @media screen and (max-width: 480) {
     .nav{
-        display: block;
+        display: none;
     }
 }
