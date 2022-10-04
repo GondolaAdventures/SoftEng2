@@ -259,7 +259,7 @@ body {
 ----------------------------------------------------- */
 
 .wrapper {
-    display: flex;
+    display: none;
     text-decoration: none;
     transition: all 0.3s;
 }
