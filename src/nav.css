@@ -1,5 +1,7 @@
-
-@media screen and (min-width:400) {
+body{
+    margin: 0 0 55px 0;
+}
+@media screen and (max-width:400) {
     .navbot{
         display: none;
     }
@@ -8,8 +10,8 @@
 .navbot{
     position: fixed;
     bottom: 0;
-    width: 400px;
-    height: 40px;
+    width: 100%;
+    height: 32px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     background-color: black;
     overflow-x: auto;
