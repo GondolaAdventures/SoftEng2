@@ -257,6 +257,13 @@ body {
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
+@media screen and (min-width: 600px) {
+  #sidebar{
+    display: none;
+  }
+  
+}
+
 
 .wrapper {
     display: flex;
