@@ -11,7 +11,7 @@
     <script src="bootstrap-4.6.0-dist/js/bootstrap.js"></script>
 
     <!-- Link CSS -->
-    <link rel ="stylesheet" href = "SignUp.css">
+    <link rel ="stylesheet" type = "text/css" href = "SignUp.css">
     <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.css">
 
     <title> BT - Sign Up </title>
@@ -54,6 +54,22 @@
                 <br>
                 <br>
         </form>
+    </div>
+
+          <!-- Error Sign Out Modal -->
+<div id = "ErrorSign" class="mod-container"> <!-- the modal ids are unique due to conflict with bootstrap modals -->
+    <section class="secMod">
+      <header class="secModHead">
+        <h2 class="secModTitle">ERROR</h2>
+        <a href="#" class="mod-close"><img class = "img-responsive closeIcon" src = "Media/xIcon.png"></a>
+      </header>
+      <div class="secModContent">
+        <div style="display: flex; justify-content: center;">
+        Someone has already registered this email. Please try again.
+        </div>
+        </div> <!-- secModContent closer -->   
+        <br>
+      </section>
     </div>
 
 </body>

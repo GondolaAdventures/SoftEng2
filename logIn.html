@@ -25,19 +25,21 @@
         <div class = "row">
         <img class = "img-responsive Logo" src = "Media/LBTWhite.png" alt = "Logo">
         </div>
-        <div class = "col-12 login-div">
+        <form class = "col-12 login-div" action="acclog.php" method="POST">
             <br>
             <p class = "loginBOLD">LOG IN</p>
             <div class="form-group">
             <label for="inputEmail" class = "emailText">Email</label>
             <div class="col-sm-8">
-            <input type="email" class="emailID" id="inputEmail" aria-describedby="emailHelp">
+            <!-- name = "email" -->
+            <input type="email" class="emailID" id="inputEmail" aria-describedby="emailHelp" name="email" required>
             </div>
              </div>
              <div class="form-group">
                 <label for="inputPassword" class = "emailText">Password</label>
                 <div class="col-sm-8">
-                <input type="password" class="emailID" id="inputPass" aria-describedby="emailHelp">
+                <!-- name = "password" -->
+                <input type="password" class="emailID" id="inputPass" aria-describedby="emailHelp" name="password" required>
                 </div>
                  </div>
                  <div style="display: flex; justify-content: space-between;">
@@ -45,7 +47,7 @@
                      <p class = "forgetPass"><a href = "Forget.html">Forget Password?</a></p>
                  </div>
                  <div class="col text-center">
-                    <a href = "index.html"><button class = "logBTN"> <p style = "font-size:3vmin"> LOG IN </p></button> </a>
+                    <input type="submit" value="LOG IN" style = "font-size:3vmin" class = "logBTN">
                 </div>
                 <br>
                 <div class="col text-center">
@@ -54,7 +56,7 @@
 
                 <br>
                 <br>
-        </div>
+            </form>
     </div>
 
 </body>

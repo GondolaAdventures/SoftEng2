@@ -6,3 +6,18 @@ function checkPass() { // for password checkbox
       x.type = "password";
     }
   }
+
+ /* var modal = document.getElementById("ErrorSign");
+
+  function popUpModal() {
+    $('#ErrorSign').modal('show');
+  }
+
+ window.onload = function(){
+
+  if ( document.getElementById('ErrorSign') ){
+
+      alert('Box'); //replace with your own handler
+  }
+
+} */

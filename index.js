@@ -1,4 +1,9 @@
- $(document).ready(function () { //leftover when @media still existed
+// Alert box
+if (document.referrer=="http://localhost/SoftEng2/logIn.html") {
+    alert("Welcome to La BiblioTecha");
+}
+
+$(document).ready(function () { //leftover when @media still existed
                 $("#sidebar").mCustomScrollbar({
                     theme: "minimal"
                 });

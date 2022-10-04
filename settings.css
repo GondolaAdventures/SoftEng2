@@ -116,7 +116,7 @@ body {
   padding:20px;
   border-radius: 10px;
   height: 82vh;
-  position: absolute;
+  position: fixed;
 }
 
 .btns {

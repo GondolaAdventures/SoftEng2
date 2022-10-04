@@ -1,7 +1,6 @@
 <?php
 $email = $_POST['email'];
-$password = $_POST['password'];
-$password_crypt = password_hash($password, PASSWORD_BCRYPT);
+$password = $_POST['password']; 
 
 if (!empty($email) || !empty($password)) {
     $host = "localhost";
@@ -15,30 +14,28 @@ if (!empty($email) || !empty($password)) {
     if (mysqli_connect_error()) {
         die('Connect Error('.mysqli_connect_errno().')'.mysqli_connect_error());
     } else {
-        $SELECT = "SELECT email From accounts Where email = ? Limit 1";
-        $INSERT = "INSERT Into accounts (email, password) values(?, ?)";
+        $SELECT = "SELECT * from accounts WHERE email = ?";
 
         //Prepare statement
         $stmt = $conn->prepare($SELECT);
         $stmt->bind_param("s", $email);
         $stmt->execute();
-        $stmt->bind_result($email);
-        $stmt->store_result();
-        $rnum = $stmt->num_rows;
+        $stmt_result = $stmt->get_result();
+        $rnum = $stmt_result->num_rows;
         
         if ($rnum==0) {
-            $stmt->close();
-
-            $stmt = $conn->prepare($INSERT);
-            $stmt->bind_param("ss", $email, $password_crypt);
-            $stmt->execute();
-            //echo "New record inserted successfully";
             header('Location: /SoftEng2/logIn.html');
         } else {
-            //header('Location: /SoftEng2/SignUp.html');
-            header('Location: /SoftEng2/SignUp.html#ErrorSign');
+            $data = $stmt_result->fetch_assoc();
+            if (password_verify($password, $data['password'])) {
+                header('Location: /SoftEng2/index.html');
+            } else {
+                header('Location: /SoftEng2/logIn.html');
+                //echo ($password == $data['password']);
+            }
         }
-        $stmt->close();
+        // $stmt->close();
+        $stmt_result->close();
         $conn->close();
     }
 } else {
