@@ -264,12 +264,6 @@ body {
     transition: all 0.3s;
 }
 
-@media screen {
-  .wrapper {
-    background-color: lightblue;
-  }
-  
-}
 #sidebar {
     width: 100px;
     height: 100vh;
