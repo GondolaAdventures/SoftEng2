@@ -8,7 +8,8 @@ body{
 }
 
 .navbot{
-    
+    position: fixed;
+    bottom: 0;
     width: 400px;
     height: 32px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
@@ -17,9 +18,6 @@ body{
     display: flex;
 }
 
-.navbot.active{
-    margin-bottom: -25px;
-}
 .navbot-link{
     display: flex;
     flex-direction: column;
