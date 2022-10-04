@@ -1,6 +1,11 @@
 body{
     margin: 0 0 55px 0;
 }
+@media screen and (max-width:400) {
+    .navbot{
+        display: none;
+    }
+}
 
 .navbot{
     position: fixed;
