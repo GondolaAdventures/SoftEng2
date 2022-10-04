@@ -2,6 +2,11 @@ body{
     margin: 0 0 55px 0;
 }
 
+@media screen and (min-width: 500px) {
+    .navbot{
+        display: none;
+    }
+}
 .navbot{
     position: fixed;
     bottom: 0;
@@ -10,7 +15,7 @@ body{
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     background-color: black;
     overflow-x: auto;
-    display: none;
+    display: flex;
 }
 
 .navbot-link{
