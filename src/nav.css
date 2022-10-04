@@ -2,7 +2,7 @@ body{
     margin: 0 0 55px 0;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 136px) {
     .navbot{
         display: none;
     }
