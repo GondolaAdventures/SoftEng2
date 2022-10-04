@@ -35,7 +35,7 @@ body{
 
 .material-icons.md-48 { font-size: 48px; }
 
-@media screen and (max-width: 480) {
+@media screen and (max-width: 1000) {
     .nav{
         display: block;
     }
