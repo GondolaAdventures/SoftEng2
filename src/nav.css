@@ -10,10 +10,10 @@ body{
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     background-color: black;
     overflow-x: auto;
-    display: flex;
+    display: none;
 }
 
-.nav-link{
+.navbot-link{
     display: flex;
     flex-direction: column;
     align-items: center;
