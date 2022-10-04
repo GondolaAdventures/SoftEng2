@@ -124,7 +124,7 @@ body .login-div {
      1px 1px 0 #000;
   }
 
-  /* MODAL FOR FILE */
+  /* MODAL FOR ERROR */
 
 .mod-container {
   position: fixed;
@@ -189,4 +189,4 @@ body .login-div {
   pointer-events: all;
 }
 
-/* MODAL FOR FILE END */
+/* MODAL FOR ERROR END */
