@@ -1,6 +1,6 @@
 
 @media screen and (max-width:400) {
-    .navbot-link{
+    .navbot{
         display: none;
     }
 }
