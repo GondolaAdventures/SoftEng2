@@ -1,7 +1,7 @@
 body{
     margin: 0 0 55px 0;
 }
-@media only screen and (orientation: landscape) {
+@media only screen and (max-width: 400px) {
     .navbot{
         display: none;
     }
