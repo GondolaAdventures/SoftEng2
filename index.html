@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.js"></script>
     <script src="bootstrap-4.6.0-dist/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js" integrity="sha512-tqaIiFJopq4lTBmFlWF0MNzzTpDsHyug8tJaaY0VkcH5AR2ANMJlcD+3fIL+RQ4JU3K6edt9OoySKfCCyKgkng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Link CSS -->
     <link rel ="stylesheet" href = "index.css">
@@ -37,7 +38,7 @@
               <a href="settings.html"><img class = "img-responsive iconSet" src = "Media/settingsLabel.png" alt = "Logo"></a>
             </li>
             <li>
-              <a href="logIn.html#logOut"><img class = "img-responsive iconOut" src = "Media/logOutLabel.png" alt = "Logo"></a>
+              <a href="logIn.html"><img class = "img-responsive iconOut" src = "Media/logOutLabel.png" alt = "Logo"></a>
             </li>
         </ul>
     </nav>
@@ -76,23 +77,6 @@
         <a href = "#"><button class = "okBTN" onclick = "deleteFile()"> <p class = "okFont"> OK </p></button> </a>
     </div>
     </div>
-    </section>
-  </div>
-
-            <!-- Welcome Modal -->
-<div id = "Welcome" class="mod-container"> <!-- the modal ids are unique due to conflict with bootstrap modals -->
-  <section class="secMod">
-    <header class="secModHead">
-      <h2 class="secModTitle">Welcome to La BiblioTecha</h2>
-      <a href="#" class="mod-close"><img class = "img-responsive closeIcon" src = "Media/xIcon.png"></a>
-    </header>
-    <div class="secModContent">
-      <div style="display: flex; justify-content: center;">
-      Please enjoy your stay and thank you for using our application.
-      <!-- Perhaps retrieve email from the database and greet user with their email -->
-      </div>
-      <br>
-      </div> <!-- secModContent closer -->   
     </section>
   </div>
 
