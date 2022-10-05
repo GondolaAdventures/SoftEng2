@@ -33,6 +33,24 @@
             </li>
             <li>
               <a href = "#Files"><img class = "clickFile img-responsive iconFil" src = "Media/whiteFolderLabel4.png" alt = "Logo"></a>
+              <ul>
+                <li>
+                  <button id="openPDF">
+                    <span>Open</span> <i class="fas fa-folder-open"></i>
+                  </button>
+                  <input type="file" id="inputFile" hidden>
+                </li>
+                <li class="pagination">
+                  <button id="previous"><i class="fas fa-arrow-alt-circle-left"></i></button>
+                  <span id="current_page">0 of 0</span>
+                  <button id="next"><i class="fas fa-arrow-alt-circle-right"></i></button>
+                </li>
+          
+                <li>
+                  <span id="zoomValue">150%</span>
+                  <input type="range" id="zoom" name="cowbell" min="100" max="300" value="150" step="50" disabled>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="settings.html"><img class = "img-responsive iconSet" src = "Media/settingsLabel.png" alt = "Logo"></a>
