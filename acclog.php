@@ -24,13 +24,14 @@ if (!empty($email) || !empty($password)) {
         $rnum = $stmt_result->num_rows;
         
         if ($rnum==0) {
-            header('Location: /SoftEng2/logIn.html');
+            header('Location: /SoftEng2/logIn.html#ErrorLog');
         } else {
             $data = $stmt_result->fetch_assoc();
             if (password_verify($password, $data['password'])) {
-                header('Location: /SoftEng2/index.html');
+                header('Location: /SoftEng2/index.html#Welcome');
             } else {
-                header('Location: /SoftEng2/logIn.html');
+                //header('Location: /SoftEng2/logIn.html');
+                header('Location: /SoftEng2/logIn.html#ErrorLog');
                 //echo ($password == $data['password']);
             }
         }
@@ -39,6 +40,7 @@ if (!empty($email) || !empty($password)) {
         $conn->close();
     }
 } else {
+    // this block of code doesn't trigger anymore
     echo "All field are required";
     die();
 }
