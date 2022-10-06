@@ -31,6 +31,46 @@ body{
     transition: ease-in-out;
 }
 
+.Logo {
+    margin: 0 auto;
+    overflow: auto;
+    width: 90px;
+    height: 58px;
+    margin-left: 5px;
+  }
+
+  .iconLib {
+    margin: 0 auto;
+    overflow: auto;
+    width: 80px;
+    height: 84px;
+  }
+
+  .iconFil {
+    margin: 0 auto;
+    overflow: auto;
+    width: 70px;
+    height: 90px;
+    margin-left: 4px;
+  }
+
+  .clickFile:hover {
+    cursor:pointer;
+  }
+
+  .iconSet {
+    margin: 0 auto;
+    overflow: auto;
+    width: 80px;
+    height: 90px;
+  }
+
+  .iconOut {
+    margin: 0 auto;
+    overflow: auto;
+    width: 80px;
+    height: 100px;
+  }
 .navbot-link:hover{
     color: #009578;
 }
