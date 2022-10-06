@@ -20,6 +20,11 @@ body {
     background-attachment: fixed;
   }
   
+  @media screen and (max-width: 500px) {
+    #sidebar{
+      display: none;
+    }
+  
   .fWidth {
     width: 100%;
   }
