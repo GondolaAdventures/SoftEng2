@@ -13,7 +13,6 @@ body{
     background-color: black;
     overflow-x: auto;
     display: flex;
-    padding: 5px;
 }
 
 .navbot-link{
@@ -30,6 +29,7 @@ body{
     -webkit-tap-highlight-color: transparent;
     background-color: 0.1s;
     transition: ease-in-out;
+    padding: 5px;
 }
 
 
