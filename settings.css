@@ -56,8 +56,8 @@ body {
   .iconFil {
     margin: 0 auto;
     overflow: auto;
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 90px;
     margin-left: 4px;
   }
 
@@ -79,8 +79,8 @@ body {
   .iconOut {
     margin: 0 auto;
     overflow: auto;
-    width: 80px;
-    height: 100px;
+    width: 40px;
+    height: 70px;
   }
 
   a, a:hover, a:focus {
