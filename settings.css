@@ -28,7 +28,7 @@ body {
     height: 60px;
 }
 
-.navboticonFil {
+  .navboticonFil {
     margin: 0 auto;
     overflow: auto;
     width: 75px;
@@ -38,7 +38,7 @@ body {
     padding-bottom: 4px;
 }
 
-.navboticonSet {
+  .navboticonSet {
     margin: 0 auto;
     overflow: auto;
     width: 70px;
@@ -48,7 +48,7 @@ body {
     padding-bottom: 6px;
 }
 
-.navboticonOut {
+  .navboticonOut {
     margin: 0 auto;
     overflow: auto;
     width: 70px;
