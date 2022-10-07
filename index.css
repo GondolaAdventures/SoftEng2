@@ -37,7 +37,7 @@ body {
   .iconLib {
     margin: 0 auto;
     overflow: auto;
-    
+    width: 80px;
     height: 84px;
   }
 
