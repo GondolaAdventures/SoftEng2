@@ -32,6 +32,7 @@ body{
     overflow: auto;
     width: 60px;
     height: 69px;
+    padding-top: 10px;
 }  
 
 .navbot{
