@@ -20,6 +20,43 @@ body {
     background-size: cover;
     background-attachment: fixed;
   }
+
+  .navboticonLib {
+    margin: 0 auto;
+    overflow: auto;
+    width: 70px;
+    height: 60px;
+}
+
+.navboticonFil {
+    margin: 0 auto;
+    overflow: auto;
+    width: 75px;
+    height: 60px;  
+    padding-top: 10px; 
+    padding-left: 20px;
+    padding-bottom: 4px;
+}
+
+.navboticonSet {
+    margin: 0 auto;
+    overflow: auto;
+    width: 70px;
+    height: 65px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 6px;
+}
+
+.navboticonOut {
+    margin: 0 auto;
+    overflow: auto;
+    width: 70px;
+    height: 68px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
   
   @media screen and (max-width: 500px) {
     #sidebar{
