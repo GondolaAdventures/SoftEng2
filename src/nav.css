@@ -18,6 +18,19 @@ body{
     margin-left: 4px;
   }
 
+.navboticonSet {
+    margin: 0 auto;
+    overflow: auto;
+    width: 80px;
+    height: 90px;
+  }
+
+.navboticonOut {
+    margin: 0 auto;
+    overflow: auto;
+    width: 80px;
+    height: 100px;
+  }  
 
 .navbot{
     position: fixed;
