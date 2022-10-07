@@ -8,7 +8,7 @@ body{
     overflow: auto;
     width: 80px;
     height: 84px;
-  }
+}
 
 .navboticonFil {
     margin: 0 auto;
@@ -16,21 +16,21 @@ body{
     width: 60px;
     height: 70px;
     
-  }
+}
 
 .navboticonSet {
     margin: 0 auto;
     overflow: auto;
     width: 60px;
     height: 70px;
-  }
+}
 
 .navboticonOut {
     margin: 0 auto;
     overflow: auto;
     width: 60px;
     height: 70px;
-  }  
+}  
 
 .navbot{
     position: fixed;
@@ -69,5 +69,5 @@ body{
     color: #009578;
 }
 
-.material-icons.md-48 { font-size: 48px; }
+
 
