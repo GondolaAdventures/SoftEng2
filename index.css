@@ -257,7 +257,7 @@ body {
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 680px) {
   #sidebar{
     display: none;
   }

@@ -21,6 +21,19 @@ body {
     background-attachment: fixed;
   }
 
+  .settingsWindow {
+    color: white;
+    background: 
+      linear-gradient(rgba(131,135,238, 0.3), transparent),
+      linear-gradient(to top left, rgba(130, 133, 35, 0.3), transparent),
+      linear-gradient(to top right, rgba(38,146,207, 0.3), transparent);
+      background-blend-mode: screen;
+    padding:20px;
+    border-radius: 10px;
+    height: 82vh;
+    position: fixed;
+  }
+
   .navboticonLib {
     margin: 0 auto;
     overflow: auto;
@@ -58,11 +71,10 @@ body {
     padding-bottom: 7px;
 }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 679px) {
     #sidebar{
       display: none;
-    }
-    
+    }  
   }
 
   @media only screen and (min-width: 680px) {
@@ -155,19 +167,6 @@ body {
 .content {
     padding: 10px;
     color: white;
-}
-
-.settingsWindow {
-  color: white;
-  background: 
-    linear-gradient(rgba(131,135,238, 0.3), transparent),
-    linear-gradient(to top left, rgba(130, 133, 35, 0.3), transparent),
-    linear-gradient(to top right, rgba(38,146,207, 0.3), transparent);
-    background-blend-mode: screen;
-  padding:20px;
-  border-radius: 10px;
-  height: 82vh;
-  position: fixed;
 }
 
 .btns {

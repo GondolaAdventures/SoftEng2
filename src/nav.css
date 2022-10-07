@@ -8,6 +8,7 @@ body{
     overflow: auto;
     width: 70px;
     height: 60px;
+    transition: all 0.3s;
 }
 
   .navboticonFil {
@@ -18,6 +19,7 @@ body{
     padding-top: 10px; 
     padding-left: 20px;
     padding-bottom: 4px;
+    transition: all 0.3s;
 }
 
   .navboticonSet {
@@ -28,6 +30,7 @@ body{
     padding-top: 5px;
     padding-left: 20px;
     padding-bottom: 6px;
+    transition: all 0.3s;
 }
 
   .navboticonOut {
@@ -38,6 +41,7 @@ body{
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 7px;
+    transition: all 0.3s;
 }  
 
 .navbot{
@@ -53,6 +57,10 @@ body{
     background-blend-mode: screen;
     overflow-x: auto;
     display: flex;
+}
+
+.botHover:hover {
+  background: rgb(10, 10, 10);
 }
 
 .navbot-link{
