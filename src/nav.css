@@ -13,6 +13,7 @@ body{
     background-color: black;
     overflow-x: auto;
     display: flex;
+    padding: 5px;
 }
 
 .navbot-link{
