@@ -3,6 +3,14 @@ body{
     margin: 0 0 55px 0;
 }
 
+.navboticonFil {
+    margin: 0 auto;
+    overflow: auto;
+    width: 70px;
+    height: 90px;
+    margin-left: 4px;
+  }
+
 
 .navbot{
     position: fixed;
