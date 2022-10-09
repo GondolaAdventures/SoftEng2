@@ -105,6 +105,7 @@ function renderCurrentPage() {
 }
 
 
+
 // clears the file field when called
 function deleteFile() {
     document.getElementById('formFileMultiple').value = "";
