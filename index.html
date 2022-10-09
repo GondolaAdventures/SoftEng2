@@ -87,6 +87,12 @@
           <canvas class="pdf-viewer hidden"></canvas>
           <footer>
           <ul>
+            <li>
+              <button id="openPDF">
+                <span>Files</span> <i class="fas fa-folder-open"></i>
+              </button>
+              <input type="file" id="inputFile" hidden>
+            </li>
             <li class="pagination">
               <button id="previous"><i class="fas fa-arrow-alt-circle-left"></i></button>
               <span id="current_page">0 of 0</span>
@@ -115,12 +121,7 @@
       <body>
         <footer>
           <ul>
-            <li>
-              <button id="openPDF">
-                <span>Files</span> <i class="fas fa-folder-open"></i>
-              </button>
-              <input type="file" id="inputFile" hidden>
-            </li>
+
           </ul>
         </footer>
         <script type="text/javascript" src="JS/index.js"></script>
