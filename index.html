@@ -74,26 +74,6 @@
         <input type="text" placeholder = "Search"/>
         <a href="#"><img src="Media/search png.png" width=25/></a>
     </div>
-    <div> 
-      <div style="display: flex; justify-content: center;">
-        <main>
-          <h3></h3>
-          <canvas class="pdf-viewer hidden"></canvas>
-          <footer>
-          <ul>
-            <li class="pagination">
-              <button id="previous"><i class="fas fa-arrow-alt-circle-left"></i></button>
-              <span id="current_page">0 of 0</span>
-              <button id="next"><i class="fas fa-arrow-alt-circle-right"></i></button>
-            </li>     
-            <li>
-              <span id="zoomValue">150%</span>
-              <input type="range" id="zoom" name="cowbell" min="100" max="300" value="150" step="50" disabled>
-            </li>
-          </ul>
-        </footer>
-        </main>
-      </div>
       <hr class = "libHR">
       <div class = "preview">
         <div class = "col text-center">
@@ -101,7 +81,26 @@
           Steelheart
         </div>
       </div>
-
+      <div> 
+        <div style="display: flex; justify-content: center;">
+          <main>
+            <h3></h3>
+            <canvas class="pdf-viewer hidden"></canvas>
+            <footer>
+            <ul>
+              <li class="pagination">
+                <button id="previous"><i class="fas fa-arrow-alt-circle-left"></i></button>
+                <span id="current_page">0 of 0</span>
+                <button id="next"><i class="fas fa-arrow-alt-circle-right"></i></button>
+              </li>     
+              <li>
+                <span id="zoomValue">150%</span>
+                <input type="range" id="zoom" name="cowbell" min="100" max="300" value="150" step="50" disabled>
+              </li>
+            </ul>
+          </footer>
+          </main>
+        </div>
       </div>
 </div>
 </div>
