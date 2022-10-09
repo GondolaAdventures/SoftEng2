@@ -71,7 +71,6 @@
                 <footer>
                   <ul>
                     <li>
-                      <a href="#openPDF"><img class = "clickFile img-responsive iconFil" src = "Media/whiteFolderLabel4.png" alt = "Logo"></a>
                       <button id="openPDF">
                         <span>Files</span> <i class="fas fa-folder-open"></i>
                       </button>
@@ -122,13 +121,33 @@
       <h2 class="secModTitle">Files</h2>
       <a href="#" class="mod-close" onclick = "deleteFile()"><img class = "img-responsive closeIcon" src = "Media/xIcon.png"></a>
     </header>
-    <div class="secModContent">
-      <label for="formFileMultiple" class="form-label" onclick = "openPDF">Input File</label>
-      <input class="form-control inputFileForm" id="formFileMultiple" type="file" multiple/>
-      <br>
-      <div class="col text-center">
-        <!-- remove deleteFile() on OK button once file import is implemented -->
-        <a href = "#"><button class = "okBTN" onclick = "openPDF"> <p class = "okFont"> OK </p></button> </a>
+    <a href = "#Files"><img class = "clickFile img-responsive iconFil" src = "Media/whiteFolderLabel4.png" alt = "Logo"></a>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="CSS/style.css" type="text/css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"
+        integrity="sha512-U5C477Z8VvmbYAoV4HDq17tf4wG6HXPC6/KM9+0/wEXQQ13gmKY2Zb0Z2vu0VNUWch4GlJ+Tl/dfoLOH4i2msw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+      <title>PDF Viewer</title>
+    </head>
+    
+    <body>
+      <footer>
+        <ul>
+          <li>
+            <button id="openPDF">
+              <span>Files</span> <i class="fas fa-folder-open"></i>
+            </button>
+            <input type="file" id="inputFile" hidden>
+          </li>
+        </ul>
+      </footer>
+      <script type="text/javascript" src="JS/index.js"></script>
+    </body>
     </div>
     </div>
     </section>
