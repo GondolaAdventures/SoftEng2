@@ -132,14 +132,29 @@
       <a href="#" class="mod-close" onclick = "deleteFile()"><img class = "img-responsive closeIcon" src = "Media/xIcon.png"></a>
     </header>
     <div class="secModContent">
-      <label for="formFileMultiple" class="form-label" onclick = "opemPDF">Input File</label>
-      <input class="form-control inputFileForm" id="formFileMultiple" type="file" multiple/>
-      <script type="text/javascript" src="JS/index.js"></script>
-      <br>
-      <div class="col text-center">
-        <!-- remove deleteFile() on OK button once file import is implemented -->
-        <a href = "#"><button class = "okBTN" onclick = "openPDF"> <p class = "okFont"> OK </p></button> </a>
+      <body>
+        <footer>
+          <ul>
+            <li>
+              <button id="openPDF">
+                <span>Open</span> <i class="fas fa-folder-open"></i>
+              </button>
+              <input type="file" id="inputFile" hidden>
+            </li>
+            <li class="pagination">
+              <button id="previous"><i class="fas fa-arrow-alt-circle-left"></i></button>
+              <span id="current_page">0 of 0</span>
+              <button id="next"><i class="fas fa-arrow-alt-circle-right"></i></button>
+            </li>
+      
+            <li>
+              <span id="zoomValue">150%</span>
+              <input type="range" id="zoom" name="cowbell" min="100" max="300" value="150" step="50" disabled>
+            </li>
+          </ul>
+        </footer>
         <script type="text/javascript" src="JS/index.js"></script>
+      </body>
     </div>
     </div>
     </section>
