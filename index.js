@@ -35,7 +35,7 @@ function resetCurrentPDF() {
 		file: null,
 		countOfPages: 0,
 		currentPage: 1,
-		zoom: 1.5
+		zoom: 1
 	}
 }
 
