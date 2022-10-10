@@ -15,6 +15,13 @@ $(document).ready(function () { //leftover when @media still existed
                 });
             });
 
+			
+// clears the file field when called
+function deleteFile() {
+    document.getElementById('formFileMultiple').value = "";
+    }
+
+	
 //PDF Reader
 const zoombutton = document.getElementById('zoom');
 const input = document.getElementById('inputFile');
@@ -106,7 +113,3 @@ function renderCurrentPage() {
 
 
 
-// clears the file field when called
-function deleteFile() {
-    document.getElementById('formFileMultiple').value = "";
-    }
