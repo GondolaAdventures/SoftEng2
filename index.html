@@ -71,6 +71,19 @@
     <div class="content">
       <br>
       <h1>LIBRARY</h1>
+      <footer>
+        <ul>
+          <li class="pagination">
+            <button id="previous"><i class="fas fa-arrow-alt-circle-left"></i></button>
+            <span id="current_page">0 of 0</span>
+            <button id="next"><i class="fas fa-arrow-alt-circle-right"></i></button>
+          </li>     
+          <li>
+            <span id="zoomValue">100%</span>
+            <input type="range" id="zoom" name="cowbell" min="100" max="150" value="50" step="25" disabled>
+          </li>
+        </ul>
+      </footer>
       <!-- <div class="fake-input"> 
         <input type="text" placeholder = "Search"/>
         <a href="#"><img src="Media/search png.png" width=25/></a>
@@ -92,37 +105,11 @@
           <main>
             <h3></h3>
             <canvas class="pdf-viewer hidden"></canvas>
-            <footer>
-            <ul>
-              <li class="pagination">
-                <button id="previous"><i class="fas fa-arrow-alt-circle-left"></i></button>
-                <span id="current_page">0 of 0</span>
-                <button id="next"><i class="fas fa-arrow-alt-circle-right"></i></button>
-              </li>     
-              <li>
-                <span id="zoomValue">100%</span>
-                <input type="range" id="zoom" name="cowbell" min="100" max="150" value="50" step="25" disabled>
-              </li>
-            </ul>
-          </footer>
           </main>
         </div>
       </div>
 </div> <!-- content end -->
 </div> <!-- fWidth end -->
-<footer>
-  <ul>
-    <li class="pagination">
-      <button id="previous"><i class="fas fa-arrow-alt-circle-left"></i></button>
-      <span id="current_page">0 of 0</span>
-      <button id="next"><i class="fas fa-arrow-alt-circle-right"></i></button>
-    </li>     
-    <li>
-      <span id="zoomValue">100%</span>
-      <input type="range" id="zoom" name="cowbell" min="100" max="150" value="50" step="25" disabled>
-    </li>
-  </ul>
-</footer>
 </div> <!-- wrapper end -->
 
 <!-- Files Modal -->
