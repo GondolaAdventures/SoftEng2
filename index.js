@@ -21,26 +21,27 @@ function deleteFile() {
     document.getElementById('formFileMultiple').value = "";
     }
 
-	
+
 //PDF Reader
-const zoombutton = document.getElementById('zoom');
+const zoomButton = document.getElementById('zoom');
 const input = document.getElementById('inputFile');
 const openFile = document.getElementById('openPDF');
 const currentPage = document.getElementById('current_page');
-const viewer = document.querySelector('.pdf-viewer')
-let currentPDF = {};
+const viewer = document.querySelector('.pdf-viewer');
+let currentPDF = {}
 
-function resetCurrentPDF(){
-    currentPDF = {
-        file: null,
-        countofpages: 0,
-        currentPage: 1,
-        zoom: 1.5
-    }
+function resetCurrentPDF() {
+	currentPDF = {
+		file: null,
+		countOfPages: 0,
+		currentPage: 1,
+		zoom: 1.5
+	}
 }
 
-openPDF.addEventListener('click', event => {
-    input.click();
+
+openFile.addEventListener('click', () => {
+	input.click();
 });
 
 input.addEventListener('change', event => {
@@ -57,6 +58,7 @@ input.addEventListener('change', event => {
 		alert("The file you are trying to open is not a pdf file!")
 	}
 });
+
 
 zoomButton.addEventListener('input', () => {
 	if (currentPDF.file) {
@@ -110,6 +112,3 @@ function renderCurrentPage() {
 	});
 	currentPage.innerHTML = currentPDF.currentPage + ' of ' + currentPDF.countOfPages;
 }
-
-
-
