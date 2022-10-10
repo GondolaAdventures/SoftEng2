@@ -76,6 +76,25 @@
         <a href="#"><img src="Media/search png.png" width=25/></a>
        </div> UNUSED -->
       <hr class = "libHR">
+      <div class = "ex1" style = "display: flex; justify-content: center;">
+        <main>
+          <h3></h3>
+          <canvas class="pdf-viewer hidden"></canvas>
+          <footer>
+          <ul>
+            <li class="pagination">
+              <button id="previous"><i class="fas fa-arrow-alt-circle-left"></i></button>
+              <span id="current_page">0 of 0</span>
+              <button id="next"><i class="fas fa-arrow-alt-circle-right"></i></button>
+            </li>     
+            <li>
+              <span id="zoomValue">150%</span>
+              <input type="range" id="zoom" name="cowbell" min="100" max="300" value="150" step="50" disabled>
+            </li>
+          </ul>
+        </footer>
+        </main>
+      </div>
       <!-- <div class = "preview">
         <div class = "col text-center">
         <img class = "steelheartPrev" src = "Media/steelheartsmall.jpg">
@@ -84,29 +103,11 @@
       </div> -->
       <div> 
         <style>
-          h3.ex1{
+          div.ex1{
             overflow: scroll;
           }
         </style>
-        <div class = "ex1" style = "display: flex; justify-content: center;">
-          <main>
-            <h3 class = "ex1"></h3>
-            <canvas class="pdf-viewer hidden"></canvas>
-            <footer>
-            <ul>
-              <li class="pagination">
-                <button id="previous"><i class="fas fa-arrow-alt-circle-left"></i></button>
-                <span id="current_page">0 of 0</span>
-                <button id="next"><i class="fas fa-arrow-alt-circle-right"></i></button>
-              </li>     
-              <li>
-                <span id="zoomValue">150%</span>
-                <input type="range" id="zoom" name="cowbell" min="100" max="300" value="150" step="50" disabled>
-              </li>
-            </ul>
-          </footer>
-          </main>
-        </div>
+
       </div>
 </div> <!-- content end -->
 </div> <!-- fWidth end -->
