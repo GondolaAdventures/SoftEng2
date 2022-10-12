@@ -27,7 +27,7 @@ if (!empty($email) || !empty($password)) {
         $conn->close();
     }
 } else {
-    echo "All field are required";
+    echo "Library not updated.";
     die();
 }
 ?>
