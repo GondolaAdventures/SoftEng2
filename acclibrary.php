@@ -22,16 +22,7 @@ if (!empty($email) || !empty($password)) {
         $rnum = $stmt_result->num_rows;
         
         // Account association required.
-        if ($rnum==0) {
-            header('Location: /SoftEng2/logIn.html#ErrorLog');
-        } else {
-            $data = $stmt_result->fetch_assoc();
-            if (password_verify($password, $data['password'])) {
-                header('Location: /SoftEng2/index.html#Welcome');
-            } else {
-                header('Location: /SoftEng2/logIn.html#ErrorLog');
-            }
-        }
+
         $stmt_result->close();
         $conn->close();
     }
